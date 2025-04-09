@@ -10,4 +10,3 @@ echo print first movie   $movies{[0]}
 echo print first movie   $movies{[2]}
  
 echo print first movie   $movies{[1]}
-.
