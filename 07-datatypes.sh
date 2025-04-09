@@ -8,4 +8,4 @@ NUM1=$1
 NUM2=$2
 
 SUM=$((NUM1+NUM2))
-echo value of $sum is 
+echo value of SUM  is 
