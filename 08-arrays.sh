@@ -6,7 +6,7 @@
 
 movies=("kavya" "Divya" "surya")
 
-echo print first movie {[0]}  $movies
 echo print first movie {[1]}  $movies
- 
 echo print first movie {[2]}  $movies
+ 
+echo print first movie {[3]}  $movies
