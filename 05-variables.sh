@@ -14,3 +14,4 @@ echo "plese enter your password"
 
 read -s passwordd
 
+echo "password was provided"
