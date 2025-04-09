@@ -7,5 +7,5 @@
 Suneetha=$1
 Tanees=$2
 
-echo $Suneetha: Hi $Tanees
-echo $Tanees: Hi $Suneetha
+echo $1: Hi $2
+echo $2: Hi $2
