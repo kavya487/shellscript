@@ -4,7 +4,7 @@
 #Author: kavya
 # date: 09-04-2025
 
-Suneetha= rahim
+Suneetha=rahim
 Tanees=robert
 
 echo $Suneetha: Hi $Tanees
