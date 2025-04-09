@@ -6,10 +6,9 @@
 
 username=$1
 password=$2
-
+echo "please enter your user"
 read -s  $1
 
-echo "please enter your user"
-read -s $2
-
 echo "please enter your password"
+
+read -s $2
