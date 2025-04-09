@@ -4,8 +4,8 @@
 #Author: kavya
 # date: 09-04-2025
 
-Suneetha=kavya
-Tanees=divya
+Suneetha= rahim
+Tanees=robert
 
 echo $Suneetha: Hi $Tanees
 echo $Tanees: Hi $Suneetha
