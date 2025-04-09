@@ -6,6 +6,6 @@
 
 echo "please enter your username"
 
-read  your username
+read   username
 
-echo userna,e was enteeed scusesfuly $username
+echo usernae was enteeed scusesfuly $username
