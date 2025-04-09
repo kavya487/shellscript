@@ -8,4 +8,4 @@ echo "please enter your username"
 
 read  your username
 
-echo "userna,e was enteeed scusesfuly $username
+echo userna,e was enteeed scusesfuly $username
