@@ -32,15 +32,13 @@
 # else
 # echo "you have failed"
 # fi
-read -s  "enter you marks: "  marks
+read -s  -p  "enter you marks: "  marks
 if [ $marks -gt 90 ]
-then 
 echo "you are first grade"
-elif  [ $marks -lt 70 ]
-then
+elif  [ $marks -ge 70 ]
 echo "yoyu are second grade"
-elif [ $marks -lt 50 ]
-then
+elif [ $marks -ge 50 ]
+
 echo "you are third garde"
 else
 echo "you are failed"
