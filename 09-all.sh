@@ -20,9 +20,15 @@
 #  echo lower value is lower =${array,,} 
 # echo "${array/world/kavbya}"
 # echo "${array:6:5}"
+# x=$1
+# y=$2
+# sum=$(($1+$2))
+# echo sum of two numbers is  $sum
 
 
-x=$1
-y=$2
-sum=$(($1+$2))
-echo sum of two numbers is  $sum
+if [marks -gt 40]
+then 
+echo "you have passed"
+else
+echo "you have failed
+fi
