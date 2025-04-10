@@ -27,6 +27,7 @@
 
 read -s "enter your marks:" marks
 if [ $marks -gt 45 ]
+then 
 echo "you have passed"
 else
 echo "you have failed"
