@@ -12,4 +12,4 @@
 
 mylist={1,2,hello,kavs}
 
-echo array is $mylist({[0]},{[2]})
+echo array is ${mylist[0]} ${mylist[2]}
