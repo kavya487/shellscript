@@ -8,4 +8,4 @@
  read  var
 echo hostname was givedn  $var 
  read -s   password
-echo password is $password
+echo password is given 
