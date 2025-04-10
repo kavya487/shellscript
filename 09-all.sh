@@ -18,6 +18,6 @@
 # echo  values from index in  array is ${mylist[*]:2:5}
 array="hello world"
 echo length=${#array}
-echo capital values is upper=${myarray^^}
- echo lower value is lower =${myarray,,} 
+echo capital values is upper=${array^^}
+ echo lower value is lower =${array,,} 
 
