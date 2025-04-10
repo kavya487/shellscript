@@ -30,5 +30,5 @@ if [marks -gt 40]
 then 
 echo "you have passed"
 else
-echo "you have failed
+echo "you have failed"
 fi
