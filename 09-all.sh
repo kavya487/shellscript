@@ -32,7 +32,7 @@
 # else
 # echo "you have failed"
 # fi
-read -s "enter you marks"   marks
+read -s  "enter you marks: "  marks
 if [ $marks -gt 90 ]
 then 
 echo "you are first grade"
