@@ -17,7 +17,7 @@
 # echo   no of values  in array is ${#mylist[*]}
 # echo  values from index in  array is ${mylist[*]:2:5}
 array="hello world"
-length=${#array}
-upper=${v^^}
-lower=${y,,} 
+echo length=${#array}
+echo capital values is upper=${myarray^^}
+ echo lower value is lower =${myarray,,} 
 
