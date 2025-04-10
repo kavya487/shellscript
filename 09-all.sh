@@ -21,3 +21,4 @@ echo length=${#array}
 echo capital values is upper=${array^^}
  echo lower value is lower =${array,,} 
 echo "${array/world/kavbya}"
+echo "${array:6:5}"
