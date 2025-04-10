@@ -10,6 +10,6 @@
 #  read -s   password
 # echo password is give
 
-mylist=(1,2,hello,kavs)
+mylist=(1,2,"hello",kavs)
 
 echo array is ${mylist[0]} ${mylist[2]}
