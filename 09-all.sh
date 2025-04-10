@@ -10,9 +10,14 @@
 #  read -s   password
 # echo password is give
 
-mylist=(12  "hello" "kavs" "as" "hgf" 132)
+# mylist=(12  "hello" "kavs" "as" "hgf" 132)
 
-echo array is ${mylist[0]} ${mylist[2]}
-echo  all values  in array is ${mylist[*]}
-echo   no of values  in array is ${#mylist[*]}
-echo  values from index in  array is ${mylist[*]:2:5}
+# echo array is ${mylist[0]} ${mylist[2]}
+# echo  all values  in array is ${mylist[*]}
+# echo   no of values  in array is ${#mylist[*]}
+# echo  values from index in  array is ${mylist[*]:2:5}
+array="hello world"
+length=${#array}
+upper=${v^^}
+lower=${y,,} 
+
