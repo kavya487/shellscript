@@ -32,16 +32,25 @@
 # else
 # echo "you have failed"
 # fi
-read  -p  "enter you marks: "  marks
-if [ $marks -ge 90 ]
-then
-    echo "you are first grade"
-elif  [ $marks -ge 70 ]
-then
-    echo "yoyu are second grade"
-elif [ $marks -ge 50 ]
-then
-echo "you are third garde"
-else
-echo "you are failed"
+# read  -p  "enter you marks: "  marks
+# if [ $marks -ge 90 ]
+# then
+#     echo "you are first grade"
+# elif  [ $marks -ge 70 ]
+# then
+#     echo "yoyu are second grade"
+# elif [ $marks -ge 50 ]
+# then
+# echo "you are third garde"
+# else
+# echo "you are failed"
+# fi
+
+read -p enter your age: age
+if [ $age>18 ]
+then 
+echo "you are eligible to vote"
+else  [ $age<18 ]
+then 
+echo "you are not eligible to vote"
 fi
