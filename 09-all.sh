@@ -25,7 +25,7 @@
 # sum=$(($1+$2))
 # echo sum of two numbers is  $sum
 
-read -s "enter your marks:" marks
+read -s -p  "enter your marks: " marks
 if [ $marks -gt 45 ]
 then 
 echo "you have passed"
