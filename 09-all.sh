@@ -5,7 +5,10 @@
 # echo "Hi $kavya"
 
 
- read  var
-echo hostname was givedn  $var 
+ 
+echo  please enter the hostname 
+read hostname
+echo hostname was provided $hostname 
+echo  please enter the password
  read -s   password
 echo password is given 
