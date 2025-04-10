@@ -6,5 +6,7 @@
 
 var=hostname 
 password=$kav
-echo read -s $var 
-echo read -s  "password was provided $password"
+ read -s $var
+echo hostname was givedn  
+ read -s   $password
+echo password is $password
