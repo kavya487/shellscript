@@ -2,7 +2,7 @@
 
 userid=$(id -u) 
 
-if [userid==0]
+if [userid=0]
 then
 echo "you are having root access"
 else 
