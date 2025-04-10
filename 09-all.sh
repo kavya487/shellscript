@@ -47,7 +47,7 @@
 # fi
 
 read -p "enter your age: "  age
-if [ $age -gt 18 ] && [$age -le 80 ]
+if [ $age -gt 18 ] && [ $age -le 80 ]
 then 
 echo "you are eligible to vote"
 else  
