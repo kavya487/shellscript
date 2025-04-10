@@ -23,12 +23,24 @@
 # x=$1
 # y=$2
 # sum=$(($1+$2))
-# echo sum of two numbers is  $sum
+# # echo sum of two numbers is  $sum
 
-read -s   "enter your marks: " marks
-if [ $marks -gt 45 ]
+# read -p   "enter your marks: " marks
+# if [ $marks -gt 45 ]
+# then 
+# echo "you have passed"
+# else
+# echo "you have failed"
+# fi
+read -s "enter you marks: " marks
+if [ $marks -gt 90 ]
 then 
-echo "you have passed"
+echo "you are first grade"
+elif  [ $marks -lt 70 ]
+then
+echo "yoyu are second grade"
+elif [ $marks -lt 50 ]
+then
+echo "you are third garde"
 else
-echo "you have failed"
-fi
+echo "you are failed"
