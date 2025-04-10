@@ -1,3 +1,3 @@
 kavya=$var
 
-echo hii var 
+echo hii $kavya
