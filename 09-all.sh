@@ -2,4 +2,4 @@
 
 kavya=good-morning
 
-echo "Hi $kavya
+echo "Hi $kavya"
