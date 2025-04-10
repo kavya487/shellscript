@@ -7,3 +7,5 @@ then
 echo "you are not having root acccccess"
 fi
 dnf install mysql -y
+
+dnf install git -y
