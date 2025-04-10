@@ -1,3 +1,3 @@
-kavya=$var
+kavya=var
 
 echo hii $kavya
