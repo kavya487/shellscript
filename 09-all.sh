@@ -51,6 +51,6 @@ if [ $age>18 ]
 then 
 echo "you are eligible to vote"
 else  [ $age<18 ]
-then 
+
 echo "you are not eligible to vote"
 fi
