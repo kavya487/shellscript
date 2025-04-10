@@ -46,7 +46,7 @@
 # echo "you are failed"
 # fi
 
-read -p enter your age: age
+read -p "enter your age: "  age
 if [ $age>18 ]
 then 
 echo "you are eligible to vote"
