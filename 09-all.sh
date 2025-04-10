@@ -24,5 +24,5 @@
 
 x=20
 y=12
-sum=$x+$y
+sum=$(x+y)
 echo sum of two numbers is  $sum
