@@ -1,3 +1,5 @@
-kavya=var
+#!/bin/bash/
 
-echo hii $kavya
+kavya=good-morning
+
+echo "Hi $kavya
