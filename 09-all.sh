@@ -1,5 +1,8 @@
 #!/bin/bash/
 
-kavya=good-morning
+# kavya=good-morning
 
-echo "Hi $kavya"
+# echo "Hi $kavya"
+
+var=hostname 
+echo read -s $var 
