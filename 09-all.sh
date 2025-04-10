@@ -22,7 +22,7 @@
 # echo "${array:6:5}"
 
 
-x=20
-y=12
-sum=$((x+y))
+x=$1
+y=$2
+sum=$(($1+$2))
 echo sum of two numbers is  $sum
