@@ -4,7 +4,7 @@ USERID=$(id -u)
 
 LOGS_FOLDER="/var/logs/shell-script-logs"
 LOG_FILE=$(echo $0  | cut -d "." -f1 )
-TIMESTAMP= $(date +%Y-%m-%d)
+TIMESTAMP=$(date +%Y-%m-%d)
 LOG_FILE_NAME="$LOGS_FOLDER/$LOG_FILE-$TMESTAMP.log"
 
 R="\e[31m"
@@ -20,7 +20,6 @@ if [ $1 -ne 0 ]
     fi
 }
 
-echo "script started executing time is $TIMESTAMP &>>$LOG_FILE
 if [ $USERID -ne 0 ]
 then
     echo "ERROR:: You must have sudo access to execute this script"
